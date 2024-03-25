@@ -28,4 +28,4 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         port: 22
         source: ${{ steps.changed-files.outputs.all_changed_files }}
-        target: /home/site/samuel
+        target: /home/site/thibaut
